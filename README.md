@@ -1,18 +1,18 @@
 # My Discrete Math Repository
 
-## Homework 2 - 202655### (Your ID) HONG GIL DONG
+## Homework 2 - 201924542 (201924542) Lee Won Jun
 
 ### 2.1 Equation Editing
 | # | text | formula |
 |---|------|---------|
-| 1 | IF (P AND Q) THEN R | $$P$$|
-| 2 | (P XOR Q) OR R | $$P$$      |
-| 3 | NOT P IFF Q |  $$P$$   |
-| 4 | FOR ALL x, P(x) | $$P$$  |
-| 5 | THERE EXISTS AN x, NOT Q(x) | $$P$$ |
-| 6 | IF P THEN Q EQUIVALENT TO NOT P OR Q | $$P$$ |
-| 7 | Euler's Identity |  $$P$$  |
-| 8 | SUM of n from 1 to 100 Equals 5050 | $$P$$ |
+| 1 | IF (P AND Q) THEN R | (P∧Q)→R |
+| 2 | (P XOR Q) OR R | (P⊕Q)∨R |
+| 3 | NOT P IFF Q | ~P↔Q |
+| 4 | FOR ALL x, P(x) | (∀x)P(x) |
+| 5 | THERE EXISTS AN x, NOT Q(x) | (∃x)~Q(x) |
+| 6 | IF P THEN Q EQUIVALENT TO NOT P OR Q | P→Q≡~P∨R |
+| 7 | Euler's Identity | e^iπ+1=0 |
+| 8 | SUM of n from 1 to 100 Equals 5050 | \sum_{n=1}^{100} n|
 
 ### 2.2 Translation
 Using the propositions 
@@ -24,12 +24,12 @@ Using the propositions
 Translate the following into statements of propositional logic:
 
 1. If I do not study, then I will only pass the course if the professor accepts bribes.<br>
-  $$p$$
+~p→(q→r)
 2. If the professor accepts bribes, then I do not study.<br>
-  $$p$$
+r→~p
 3. The professor does not accept bribes, but I study and will pass the course.<br>
-  $$p$$
+~r∧p∧q
 4. If I study, the professor will accept bribes and I will pass the course.<br>
-  $$p$$
+p→(r∧q)
 5. I will not pass the course but the professor accepts bribes.<br>
-  $$p$$
+~q∧r
